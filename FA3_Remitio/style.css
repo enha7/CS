@@ -1,0 +1,32 @@
+html {
+    background-image: url("rainbow.jpeg");
+}
+h1 {
+    text-align: center;
+    background-color: #CCE5FF;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 2px dotted blue;
+    padding: 10px, 15px, 10px, 15px;
+    width: 250px;
+    margin-bottom: 20px;   
+}
+p {
+    background-color: hsl(211,100.0%,90.0%);
+    text-align: justify;
+    font-style: italic;
+    padding: 20px;
+    border: 3px black;
+    border-right-style: dotted;
+    border-top-style: dashed;
+    border-left-style: double;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    width: 500px;
+}
+span {
+    font-style: bold, italic;
+    color: rgb(0, 102, 204);
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
