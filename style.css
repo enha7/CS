@@ -1,5 +1,5 @@
 html {
-    background-image: url("images/background.png");
+    background-image: url("rainbow.jpeg");
 }
 h1 {
     text-align: center;
@@ -26,10 +26,7 @@ p {
 span {
     font-style: bold, italic;
     color: rgb(207, 108, 108);
-    margin: 2px;
-    margin-left: 5px;
+    margin-left: 2px;
     margin-right: 5px;
 }
-body {
-    background-image: src="rainbow.jpeg";
-}
+
