@@ -1,10 +1,10 @@
 html {
     background-image: url("rainbow.jpeg");
+    background-repeat: no-repeat;
 }
 h1 {
     text-align: center;
     background-color: #CCE5FF;
-    background-repeat: no-repeat;
     font-family: "Lucida Console", "Courier New", monospace;
     border: 2px dotted blue;
     padding: 10px, 15px, 10px, 15px;
