@@ -3,7 +3,7 @@ html {
 }
 h1 {
     text-align: center;
-    background-color: #FFCCE5;
+    background-color: #CCE5FF;
     font-family: "Lucida Console", "Courier New", monospace;
     border: 2px dotted blue;
     padding: 10px, 15px, 10px, 15px;
@@ -11,7 +11,7 @@ h1 {
     margin-bottom: 20px;   
 }
 p {
-    background-color: hsl(199.2,77.4%,73.9%);
+    background-color: hsl(211°,100.0%,90.0%);
     text-align: justify;
     font-style: italic;
     padding: 20px;
