@@ -11,7 +11,7 @@ h1 {
     margin-bottom: 20px;   
 }
 p {
-    background-color: hsl(211%,100.0%,90.0%);
+    background-color: hsl(211,100.0%,90.0%);
     text-align: justify;
     font-style: italic;
     padding: 20px;
