@@ -3,8 +3,8 @@ html {
 }
 h1 {
     text-align: center;
-    background-color: #00ffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFCCE5;
+    font-family: "Lucida Console", "Courier New", monospace;
     border: 2px dotted blue;
     padding: 10px, 15px, 10px, 15px;
     width: 250px;
@@ -25,7 +25,7 @@ p {
 }
 span {
     font-style: bold, italic;
-    color: rgb(207, 108, 108);
+    color: rgb(255, 204, 229);
     margin-left: 2px;
     margin-right: 5px;
 }
