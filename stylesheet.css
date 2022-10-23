@@ -23,8 +23,8 @@ html {
       h2 {
       	position: absolute;
             float: left;
-            top: 0px;
-            right: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
             width: 100px;
             text-align: center;
             border: 1px solid black;
