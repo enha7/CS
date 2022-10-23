@@ -9,7 +9,7 @@ html {
         margin-bottom: 15px;
         }
     .section {
-    			width: 33.3%;
+    		      width: 33.3%;
                 float: left;
              }
              
@@ -21,7 +21,8 @@ html {
                 background-color: #EEE;
                }
       h2 {
-      		position: absolute;
+      	position: absolute;
+            float: left;
             top: 0px;
             right: 0px;
             width: 100px;
