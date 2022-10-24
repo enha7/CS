@@ -28,6 +28,7 @@ h1 {
     top: 30px;
     left: 200px;
     position: fixed;
+    z-index: 4;
 }
 #song {
     top: 220px;
