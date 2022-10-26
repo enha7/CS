@@ -7,3 +7,21 @@ h1 {
     font: Lucida Console;
     color: rgb(139,69,19);
 }
+
+.chocochip {
+      margin-left: 150;
+      margin-top: 300;
+      position: absolute;
+}
+
+.sugar {
+      margin-left: 150;
+      margin-top: 400;
+      position: absolute;
+}
+
+.macaron {
+      margin-left: 150;
+      margin-top: 500;
+      position: absolute;
+}
