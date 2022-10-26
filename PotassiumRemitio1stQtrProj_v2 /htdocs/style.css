@@ -3,6 +3,7 @@ html {
 }
 
 h1 {
+    text-align: center;
     font: Lucida Console;
     color: rgb(139,69,19);
 }
