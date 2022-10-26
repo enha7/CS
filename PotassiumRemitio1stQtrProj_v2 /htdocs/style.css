@@ -5,21 +5,22 @@ html {
 h1 {
     text-align: center;
     font: Lucida Console;
-    font-size: 40;
+    font-size: 40px;
     color: rgb(139,69,19);
 }
 
 .chocochip {
-      margin-left: 150;
-      margin-top: 300;
+      position: relative;
+      right: 150px;
+      down: 300;
 }
 
 .sugar {
-      margin-left: 150;
-      margin-top: 400;
+      right: 150;
+      down: 400;
 }
 
 .macaron {
-      margin-left: 150;
-      margin-top: 500;
+      right: 150;
+      down: 500;
 }
