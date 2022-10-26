@@ -5,6 +5,7 @@ html {
 h1 {
     text-align: center;
     font: Lucida Console;
+    font-size: 40;
     color: rgb(139,69,19);
 }
 
