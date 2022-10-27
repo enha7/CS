@@ -11,20 +11,26 @@ h1 {
     border: 0px, 0px, 0px, 0px;
 }
 
-#chocochip {
+.chocochip {
       object-position: absolute;
       left: 150px;
       top: 300px;
+      width: 500px;
+      height: 100px;
 }
 
-#sugar {
+.sugar {
       object-position: absolute;
       left: 150px;
       top: 500px;
+      width: 500px;
+      height: 100px;
 }
 
-#macaron {
+.macaron {
       object-position: absolute;
       left: 150px;
       top: 700px;
+      width: 500px;
+      height: 100px;
 }
