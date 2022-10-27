@@ -7,6 +7,8 @@ h1 {
     font: Lucida Console;
     font-size: 40px;
     color: rgb(139,69,19);
+    background-color: rgb(222,184,135);
+    border: 0px, 0px, 0px, 0px;
 }
 
 #chocochip {
