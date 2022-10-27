@@ -13,24 +13,24 @@ h1 {
 
 .chocochip {
       object-position: absolute;
-      left: 150px;
-      top: 300px;
       width: 500px;
       height: 100px;
+      background-color: rgb(255,248,220);
+      border: 0px, 0px, 0px, 0px;
 }
 
 .sugar {
       object-position: absolute;
-      left: 150px;
-      top: 500px;
       width: 500px;
       height: 100px;
+      background-color: rgb(255,248,220);
+      border: 0px, 0px, 0px, 0px;
 }
 
 .macaron {
       object-position: absolute;
-      left: 150px;
-      top: 700px;
       width: 500px;
       height: 100px;
+      background-color: rgb(255,248,220);
+      border: 0px, 0px, 0px, 0px;
 }
