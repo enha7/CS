@@ -8,7 +8,9 @@ h1 {
     font-size: 50px;
     color: rgb(139,69,19);
     background-color: rgb(222,184,135);
-    border: 0px, 0px, 0px, 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 .chocochip {
