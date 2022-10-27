@@ -10,17 +10,19 @@ h1 {
 }
 
 .chocochip {
-      position: relative;
-      right: 150px;
-      down: 300;
+      position: absolute;
+      left: 150px;
+      top: 300px;
 }
 
 .sugar {
-      right: 150;
-      down: 400;
+      position: absolute;
+      left: 150px;
+      top: 500px;
 }
 
 .macaron {
-      right: 150;
-      down: 500;
+      position: absolute;
+      left: 150px;
+      top: 700px;
 }
