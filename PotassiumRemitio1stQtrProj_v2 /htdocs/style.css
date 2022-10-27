@@ -9,19 +9,19 @@ h1 {
     color: rgb(139,69,19);
 }
 
-.chocochip {
+#chocochip {
       object-position: absolute;
       left: 150px;
       top: 300px;
 }
 
-.sugar {
+#sugar {
       object-position: absolute;
       left: 150px;
       top: 500px;
 }
 
-.macaron {
+#macaron {
       object-position: absolute;
       left: 150px;
       top: 700px;
