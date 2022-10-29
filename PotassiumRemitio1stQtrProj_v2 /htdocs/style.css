@@ -4,10 +4,12 @@ html {
 
 h1 {
     text-align: center;
-    font: Lucida Console;
-    font-size: 50px;
+    font: chalkduster;
+    font-size: 75px;
     color: rgb(139,69,19);
     background-color: rgb(222,184,135);
+    padding-top: 100px;
+    padding-bottom: 100px
 }
 
 img {
