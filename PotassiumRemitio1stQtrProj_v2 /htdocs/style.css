@@ -15,11 +15,20 @@ h1 {
     padding-bottom: 50px;
 }
 
-img {
+div {
     background-color: rgb(255,248,220);
-    padding: 25px, 25px, 25px, 500px;
-    margin: 4%;
+    padding: 25px;
+    margin: 30px;
     height: 200px;
-    width: 200px;
-    float: left;
+    width: 500px;
+}
+
+img {
+     float: left;
+     width: 150px;
+     height: 150px;
+}
+
+ul {
+    list-style: none;
 }
