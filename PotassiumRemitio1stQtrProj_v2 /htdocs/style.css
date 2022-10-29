@@ -8,29 +8,13 @@ h1 {
     font-size: 50px;
     color: rgb(139,69,19);
     background-color: rgb(222,184,135);
-    border: 0px; 0px; 0px; 0px;
 }
 
-.chocochip {
-      object-position: absolute;
-      width: 500px;
-      height: 100px;
-      background-color: rgb(255,248,220);
-      border: 0px, 0px, 0px, 0px;
-}
-
-.sugar {
-      object-position: absolute;
-      width: 500px;
-      height: 100px;
-      background-color: rgb(255,248,220);
-      border: 0px, 0px, 0px, 0px;
-}
-
-.macaron {
-      object-position: absolute;
-      width: 500px;
-      height: 100px;
-      background-color: rgb(255,248,220);
-      border: 0px, 0px, 0px, 0px;
+img {
+    background-color: rgb(255,248,220);
+    padding: 25px;
+    margin: 4%;
+    height: 250px;
+    width: 250px;
+    float: left;
 }
