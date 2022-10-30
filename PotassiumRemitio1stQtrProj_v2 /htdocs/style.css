@@ -3,32 +3,45 @@ html {
 }
 
 h1 {
-    text-align: center;
-    font: chalkduster;
-    font-size: 75px;
-    color: rgb(139,69,19);
-    background-color: rgb(222,184,135);
-    position: absolute; 
-    top: 0px; 
-    left: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+      color: rgb(139,69,19);
+      background-color: rgb(222,184,135);
+      font-size: 80px;
+      text-align: center;
+      position:fixed;
+      padding-top: 40px;
+      top:0;
+      left:0;
+      width:100%;
+      margin: 0px;
+      height: 160px;
+      z-index: 1;
+
 }
 
 div {
-    background-color: rgb(255,248,220);
-    padding: 25px;
-    margin: 30px;
-    height: 200px;
-    width: 500px;
+      position: relative;
+      background-color: rgb(252, 218, 175);
+      padding: 25px;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: auto;  
+      height: 200px;
+      width: 800px;
 }
 
 img {
-     float: left;
-     width: 150px;
-     height: 150px;
+      float: left;
+      width: 150px;
+      height: 150px;
 }
 
 ul {
-    list-style: none;
+      list-style: none;
+}
+
+a {
+      color: rgb(139,69,19);
+      text-decoration: none;
+      text-align: center;
+      font-size: 30px;
 }
