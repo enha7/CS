@@ -3,7 +3,23 @@ html {
 }
 
 h1 {
-    text-align: center;
-    font: Lucida Console;
-    color: rgb(139,69,19);
+      text-align: center;
+      color: rgb(139,69,19);
+      font-size: 40px;
+      background-color: rgb(252, 218, 175);
+      position:fixed;
+      padding-top: 25px;
+      top:0;
+      left:0;
+      width:100%;
+      margin: 0px;
+      height: 160px;
+      z-index: 1;
 }
+
+img {
+      float: left;
+      height: 1000px;
+      width: 500px;
+}
+      
