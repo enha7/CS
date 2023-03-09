@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REMITIO - FA 10</title>
+</head>
+<body>
+	<script>
+    	  var x = Math.floor(Math.random() * 1001);
+        var num = x.toString();
+        var y = num.length;
+        var o;
+        var t;
+        var h;
+        
+        if (y == 3) { 
+        	o = num[2];
+            t = num[1] * 10;
+            h = num[0] * 100;
+        } else if (y == 2) {
+        	o = num[1];
+            t = num[0] * 10;
+            h = 0;
+        } else {
+        	o = num[0];
+            t = 0;
+            h = 0;
+        }
+        
+        document.write("Randomly generated number: " + num + "<br><br>");
+        
+        document.write("Breakdown: " + h + ", " + t + ", " + o);
+	</script>
+</body>
+</html>
