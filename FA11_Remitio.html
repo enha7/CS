@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FA 11 - REMITIO</title>
+    </head>
+    <body>
+        <script>
+            var side1 = prompt("Enter the measurements of the triangle (first):", " ");
+            var side2 = prompt("Enter the measurements of the triangle (second):", " ");
+            var side3 = prompt("Enter the measurements of the triangle (third):", " ");
+            
+            determineTriangle(side1, side2, side3);
+            
+            function determineTriangle(a, b, c) {
+                if (a == b && a == c) {
+                    alert("The triangle is EQUILATERAL.");
+                } else if (a == b || a == c || b == c) {
+                    alert("The triangle is ISOSCELES.");
+                } else {
+                    alert("The triangle is SCALENE.");
+                }
+            }
+        </script>
+    </body>
+</html>
