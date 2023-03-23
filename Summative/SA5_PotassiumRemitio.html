@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Online Shop</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Summative Assessment (6)">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Erika Remito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      span {color: blue; text-decoration:underline}
+      button {width: 100px; padding: 5px; background: pink;}
+    </style>
+
+    </head>
+<body>
+    <h1> Welcome to Bes' Stationery Shop </h1>
+    <h2> Please select from the following items </h2>
+    
+    <ol>
+        <li> Item#1 - Marker&emsp;&ensp;&nbsp;price: 40.00 </li>
+        <li> Item#2 - Pencil&emsp;&emsp;&nbsp;price: 15.00 </li>
+        <li> Item#3 - Ruler&emsp;&emsp;&ensp;price: 30.00 </li>
+    </ol>
+    <!-- the following will be used to display purchase information -->
+    <p> Item selected : <span id="item"> </span> </p>
+    <p> Qty bought : <span id="qty"> </span> </p>
+    <p> Amount to pay for the item: <span id="bill"> </span> </p>
+    <p> Current Total Bill: <span id="tbill"> </span> </p>
+    <button onclick="order()"> Buy an Item </button>
+    <button onclick="reset()"> Clear </button>
+    
+    <script>
+        /* definition of variables */
+        var item;
+        var qty;
+        var bill;
+        var tbill = 0;
+        
+        /* runs when the "Buy an item" button is clicked; asks for user's order and displays all the necessary info */
+        function order() {
+            item = prompt("Enter the item number(1, 2, 3) of your chosen item",""); //asks for the chosen item of the user
+            
+            /* validates the value given by the user, returns if invalid */
+            if (item != 1 && item != 2 && item != 3) {
+                alert("Choose an item among items '1', '2', and '3' only."); //displays a message to signal the user that the value is invalid
+                return;
+            }
+            
+            qty = prompt("Enter your desired quantity of the chosen item",""); //asks for the desired quantity of item/s
+            
+            /* validates the value given by the user, returns if invalid */
+            if (qty != parseInt(qty) || isNaN(qty)) {
+                alert("Please enter a valid quantity (whole numbers only)."); //displays a message to signal the user that the value is invalid
+                return;
+            }
+            
+            /* determines and displays the item chosen by the user and calculates the amount to pay for the item */
+            switch (item) {
+                case "1": 
+                    bill = qty * 40.00;
+                    document.getElementById("item").innerHTML = "Marker";
+                    break;
+                case "2":
+                    bill = qty * 15.00;
+                    document.getElementById("item").innerHTML = "Pencil";
+                    break;
+                case "3":
+                    bill = qty * 30.00;
+                    document.getElementById("item").innerHTML = "Ruler";
+                    break;
+            }
+            
+            /* displays the quantity, amount to pay, and current total bill */
+            document.getElementById("qty").innerHTML = qty;
+            document.getElementById("bill").innerHTML = bill;
+            document.getElementById("tbill").innerHTML = tbill += bill;
+        }
+        
+        
+        /* runs when the clear button is clicked; resets and clears everything (Item Selected, Qty bought, Amount to pay for the item, and Current Total Bill) */
+        function reset() {
+            document.getElementById("item").innerHTML = " ";
+            
+            document.getElementById("qty").innerHTML = " ";
+            
+            document.getElementById("bill").innerHTML = " ";
+            
+            document.getElementById("tbill").innerHTML = " ";
+            
+            ctbill = 0;
+        }
+    </script>
+</body>
+
+</html>
+
