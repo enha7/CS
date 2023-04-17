@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Remitio - FA 12 </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formative Assessment 12">
+        <meta name="keywords" content="HTML, JavaScript">
+        <meta name="author" content="Erika Remito">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Multiplication Table </h2>
+        
+        <p>Enter a number between 2 and 10.</p> </br>
+        
+        <input id="width"> by <input id="length"> </br> </br>
+        
+        <button onclick="display()"> Click here when ready! </button> </br> </br> 
+        
+        <table id="table" border="2px"></table>
+        
+        <script>
+            function display() {
+                var x = document.getElementById("width").value;
+                var y = document.getElementById("length").value;
+                
+                if (x <= 2 || x >= 10) {
+                    alert("Please enter numbers between 2 and 10");
+                    return false;
+                }
+                            
+                if (y <= 2 || y >= 10) {
+                    alert("Please enter numbers between 2 and 10");
+                    return false;
+                }
+                
+                var table = "<table>";
+                
+                for (var i = 1; i <= x; i++) {
+                    table +="<tr>";
+                    for (var j = 1; j <= y; j++) {
+                        table += "<td>" + i * j + "</td>";
+                    }
+                    table += "</tr>";
+                }
+                document.getElementById("table").innerHTML = table;
+            }
+        </script>
+    </body>
+</html>
