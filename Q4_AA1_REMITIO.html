@@ -57,6 +57,8 @@
                         case "UCC":
                         case "UCA":
                         case "UCG":
+                        case "AGU":
+                        case "AGC":
                             amino = "Ser";
                             break;
                         case "CCU":
@@ -93,6 +95,44 @@
                         case "UGA":
                             amino = "STOP";
                             i = codonArray.length;
+                            break;
+                        case "CAU":
+                        case "CAC":
+                            amino = "His";
+                            break;
+                        case "CAA":
+                        case "CAG":
+                            amino = "Gln";
+                            break;
+                        case "AAU":
+                        case "AAC":
+                            amino = "Asn";
+                            break;
+                        case "AAA":
+                        case "AAG":
+                            amino = "Lys";
+                            break;
+                        case "GAU":
+                        case "GAC":
+                            amino = "Asp";
+                            break;
+                        case "GAA":
+                        case "GAG":                            
+                            amino = "Glu";
+                            break;
+                        case "CGU":
+                        case "CGC":
+                        case "CGA":
+                        case "CGG":
+                        case "AGA":
+                        case "AGG":
+                            amino = "Arg";
+                            break;
+                        case "GGU":
+                        case "GGC":
+                        case "GGA":
+                        case "GGG":
+                            amino = "Gly";                    
                             break;
                         default:
                             amino = "Unknown";
