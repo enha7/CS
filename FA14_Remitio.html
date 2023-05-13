@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up Form </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formative Assessment 14">
+        <meta name="keywords" content="HTML, JavaScript, CSS">
+        <meta name="author" content="Erika Remito">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body {
+            background-color: #f2faff;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        h1 {
+            color: #276CAC;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        form {
+            background-color: #e1e8f9;
+            color: #4a4a4a;
+            width: 600px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4a4a;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 14px;
+            margin-bottom: 20px;
+            background-color: #f9fdff;
+            color: #4a4a4a;
+        }
+        
+        input[type="submit"], input[type="reset"] {
+            background-color: #4a90e2;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        fieldset {
+            margin-top: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 20px;
+        }
+        
+        legend {
+            font-size: 23px;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-align: center;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        #showInfo {
+            background-color: #e1e8f9;
+            color: #4a4a4a;
+            width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+        }
+
+        #showInfo p {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        #showInfo span {
+            color: #4a4a4a;
+            font-weight: normal;
+        }        
+        </style>
+    </head>
+    <body>
+        <h1> The Study Buddies </h1>
+        <form id="info" onsubmit="return submitInfo();">
+            <label for="name"> Name: </label> <br>
+            <input type="text" id="name" onfocus="green(this)" onblur="red(this)" required> <br>
+            
+            <label for="username"> Username: </label> <br>
+            <input type="text" id="username" onfocus="green(this)" onblur="red(this)" required> <br>
+            
+            <label for="gender"> Gender </label> <br>
+            <select id="gender" onfocus="green(this)" onblur="red(this)" required>
+                <option> Prefer not to mention </option>
+                <option> Female </option>
+                <option> Male </option>                
+            </select> <br> <br>
+            
+            <label for="password"> Password: </label> <br>
+            <input type="password" id="password" onfocus="green(this)" onblur="red(this)" required> <br> 
+            
+            <label for="email"> Email Address: </label> <br>
+            <input type="email" id="email" onfocus="green(this)" onblur="red(this)" required> <br>
+            
+            <label for="address"> Address: </label> <br>
+            <input type="text" id="address" onfocus="green(this)" onblur="red(this)" required> <br>
+            
+            <label for="interest"> Interests: </label> <br>
+            <textarea id="interest" onfocus="green(this)" onblur="red(this)" required> </textarea> <br> <br>
+            
+            <input type="submit" value="Submit" onclick="submitInfo()">
+            <input type="reset" value="Clear" onclick="clearInfo()">
+        </form>
+        <fieldset id="showInfo" hidden>
+            <legend> Information: </legend>
+                <p> Name: <span id="showName"></span></p>
+                <p> Username: <span id="showUsername"></span></p>
+                <p> Gender: <span id="showGender"></span></p>
+                <p> Password: <span id="showPassword"></span></p>
+                <p> Email Address: <span id="showEmail"></span></p>
+                <p> Address: <span id="showAddress"></span></p>
+                <p> Interests: <span id="showInterest"></span></p>
+        </fieldset>
+        <script>
+            function red(input) {
+                var x = input.value;
+                if (x == null || x == "") {
+                    input.style.borderColor = "red";   
+                } else {
+                    return green(input);
+                }
+            }
+            
+            function green(input) {
+                input.style.borderColor = "green";
+                return true;
+            }   
+
+            function submitInfo() {
+                var name = document.getElementById("name").value;
+                var username = document.getElementById("username").value;
+                var gender = document.getElementById("gender").value;
+                var password = document.getElementById("password").value;
+                var email = document.getElementById("email").value;
+                var address = document.getElementById("address").value;
+                var interest = document.getElementById("interest").value;
+                
+                if (name != '' && username != '' && gender != '' && password != '' && email != '' && address != '' && interest != '' && email.includes("@")) {
+                    document.getElementById("showName").textContent = name;
+                    document.getElementById("showUsername").textContent = username;
+                    document.getElementById("showGender").textContent = gender;
+                    document.getElementById("showPassword").textContent = password;
+                    document.getElementById("showEmail").textContent = email;
+                    document.getElementById("showAddress").textContent = address;
+                    document.getElementById("showInterest").textContent = interest;
+                    document.getElementById("showInfo").style.display = "block";
+                    return false;
+                }
+            }
+    
+            function clearInfo() {
+                document.getElementById("name").value = "";
+                document.getElementById("username").value = "";
+                document.getElementById("gender").value = "";
+                document.getElementById("password").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("address").value = "";
+                document.getElementById("interest").value = "";
+                document.getElementById("name").style.borderColor = "";
+                document.getElementById("username").style.borderColor = "";
+                document.getElementById("gender").style.borderColor = "";
+                document.getElementById("password").style.borderColor = "";
+                document.getElementById("email").style.borderColor = "";
+                document.getElementById("address").style.borderColor= "";
+                document.getElementById("interest").style.borderColor= "";
+                document.getElementById("showInfo").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
