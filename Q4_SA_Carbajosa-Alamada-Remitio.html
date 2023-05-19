@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+        <title> NCE REVIEWER </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Summative Assessment">
+        <meta name="keywords" content="HTML, JavaScript, CSS">
+        <meta name="authors" content="Al-Saifi Alamada, Xyron Carbajosa, Erika Remito">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        	<body>
+            <style>
+                body {
+                    background-color: #97BCCB;
+                    font-family: Arial, sans-serif;
+                }
+                
+                #layout {
+                    background-color: #ddf0f4;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px #3e688b;
+                    max-width: 800px;
+                    margin: 0 auto;
+                }
+                
+                h1 {
+                    text-align: center;
+                    color: #FFFFFF;
+                    font-size: 40px;
+                    margin-top: 20px;
+                    text-shadow: 0 0 10px #3e688b;
+                }
+                
+                h2 {
+                    color: #1c2e3e;
+                    font-size: 20px;
+                    margin-top: 30px;
+                }
+                
+                h3 {
+                    color: #375c7c;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                
+                p {
+                    color: #1c2e3e;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    margin-bottom: 15px;
+                }
+                
+                label {
+                    font-size: 16px;
+                    margin-left: 10px;
+                }
+                
+                input[type="submit"],
+                input[type="reset"] {
+                    background-color: #1c2e3e;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            
+                input[type="submit"]:hover,
+                input[type="reset"]:hover {
+                    background-color: #375c7c;
+                }               
+                
+                #output {
+                    background-color: #ddf0f4;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px #3e688b;
+                    max-width: 800px;
+                    margin: 50px auto;
+                }
+                
+            </style>
+			<h1 id="header"> NCE MATHEMATICS REVIEWER</h1>
+            <div id= "layout"> 
+              	<form id="form">
+					<h2>I. Multiple Choice: </h2> 
+					<h3>Click The Circle Beside The Answer You Have Chosen</h3>
+				
+				<!-- NUMBER 1 -->
+					<p for="question1"> 1. Carol has a rectangular sheet of paper measuring 48 cm by 72 cm. She wants to cut it into the least number of square pieces without wastingany material. How may squares can she cut from the paper?<br></p>
+						<input type="radio" name="question1" value="a" id="question1" required>
+						<label for= "A1">A.3 </label>
+						<br>
+						<input type="radio" name="question1"  value="b" id="question1" required>
+						<label for= "B1">B. 6</label> 
+						<br>
+						<input type="radio" name="question1"  value="c" id="question1" required> 
+						<label for= "C1">C. 12</label> 
+						 <br>
+						<input type="radio" name="question1"  value="d" id="question1" required > 
+						<label for= "D1">D. 18</label> 
+						<br>
+						<p id="result1"> </p>
+               	
+				<!--NUMBER 2 -->
+					<p for="question2"> 2. Given the sequence 1, 1, 2, 2, ________.What number could go into the blank?<br>
+					I. 2 II. 3 III. 4
+					<br></p>
+						<input type="radio" name="question2" value="a" id="question2" required>
+						<label for= "A2">A. I only </label>
+						<br>
+						<input type="radio" name="question2"  value="b" id="question2" required> 
+						<label for= "B2">B. II only</label> 
+						<br>
+						<input type="radio" name="question2"  value="c" id="question2" required> 
+						<label for= "C2">C. III only</label> 
+						<br>
+						<input type="radio" name="question2"  value="d" id="question2" required> 
+						<label for= "D2">D. I, II and, III </label> 
+						<br>
+						<p id="result2"> </p>
+               	
+				
+				<!--NUMBER 3 -->
+					<p for="question3"> 3. How many 50-peso bills are equivalent to 30 twenty-peso bills?<br></p>
+						<input type="radio" name="question3" value="a" id="question3" required>
+						<label for= "A3">A. 600 </label>
+						<br>
+						<input type="radio" name="question3"  value="b" id="question3" required> 
+						<label for= "B3">B. 75</label> 
+						<br>
+						<input type="radio" name="question3"  value="c" id="question3" required> 
+						<label for= "C3">C. 20</label> 
+						<br>
+						<input type="radio" name="question3"  value="d" id="question3" required> 
+						<label for= "D3">D. 12 </label> 
+						<br>
+						<p id="result3"> </p>
+              
+				<!--Number 4 -->
+					<p for="question4"> 4. I need 15 pieces of similar fruits to make 3 glasses of juice. How many pieces of the same fruit do I need to make a dozen glasses of juice?<br> </p>
+						<input type="radio" name="question4" value="a" id="question4" required>
+						<label for= "A4">A. 36 </label>
+						<br>
+						<input type="radio" name="question4"  value="b" id="question4" required> 
+						<label for= "B4">B. 45 </label> 
+						<br>
+						<input type="radio" name="question4"  value="c" id="question4" required> 
+						<label for= "C4">C. 60</label> 
+						<br>
+						<input type="radio" name="question4"  value="d" id="question4" required> 
+						<label for= "D4">D. 180</label> 
+						<br>
+						<p id="result4"> </p>
+              
+				<!--NUMBER 5 -->
+					<p for="question5"> 5. Eight unit cubes are glued to form a 2 by 2 by 2 cube. If one corner unit cube is removed, what is the total surface area of the resulting figure?<br></p>
+						<input type="radio" name="question5" value="a" id="question5" required>
+						<label for= "A5">A. 8 square units </label>
+						<br>
+						<input type="radio" name="question5"  value="b" id="question5" required> 
+						<label for= "B5">B. 18 square units</label> 
+						<br>
+						<input type="radio" name="question5"  value="c" id="question5" required> 
+						<label for= "C5">C. 21 square units</label> 
+						<br>
+						<input type="radio" name="question5"  value="d" id="question5" required> 
+						<label for= "D5">D. 24 square units</label> 
+						<br>
+						<p id= "result5"> </p>
+						
+                <!--Number 6 -->
+					<p for="question6"> 6. A teacher gave a three-item TRUE or FALSE quiz. How many possible combinations of answers can students have?<br></p>
+						<input type="radio" name="question6" value="a" id="question6" required>
+						<label for= "A6">A. 2 </label>
+						<br>
+						<input type="radio" name="question6"  value="b" id="question6" required> 
+						<label for= "B4">B. 6</label> 
+						<br>
+						<input type="radio" name="question6"  value="c" id="question6" required> 
+						<label for= "C6">C. 8</label> 
+						<br>
+						<input type="radio" name="question6"  value="d" id="question6" required> 
+						<label for= "B6">D. 9</label> 
+						<br>
+						<p id="result6"> </p>
+             
+			 <!--Number 7-->
+					<p for="question7"> 7. What is the sum of the greatest 3-digit number and the greatest 4-digit number?<br></p>
+						<input type="radio" name="question7" value="a" id="question7" required>
+						<label for= "A7">A. 9,998</label>
+						<br>
+						<input type="radio" name="question7"  value="b" id="question7" required> 
+						<label for= "B7">B. 9,999</label> 
+						<br>
+						<input type="radio" name="question7"  value="c" id="question7" required> 
+						<label for= "C7">C. 10,000</label> 
+						<br>
+						<input type="radio" name="question7"  value="d" id="question7" required> 
+						<label for= "D7">D. 10,998</label> 
+						<br>
+						<p id= "result7"></p>
+                
+				<!--Number 8-->
+					<p for="question8"> 8. James answered a 40-item examination. He gets 5 points for every cor- rect answer but he loses 2 points for every wrong answer. What was his total score if he correctly answered 75% of the items?<br></p>
+						<input type="radio" name="question8" value="a" id="question8" required>
+						<label for= "A8">A. 150</label>
+						<br>
+						<input type="radio" name="question8"  value="b" id="question8" required> 
+						<label for= "B8">B. 148</label> 
+						<br>
+						<input type="radio" name="question8"  value="c" id="question8" required> 
+						<label for= "C8">C. 130 </label> 
+						<br>
+						<input type="radio" name="question8"  value="d" id="question8" required> 
+						<label for= "D8">D. 100</label> 
+						<br>
+						<p id="result8"></p>
+                <!--Number 9-->
+					<p for="question9"> 9. Thirty-six men can finish building a house in 120 days. If a third of the original number of men were added, how many days would take the whole group to finish the same house?<br>	</p>
+						<input type="radio" name="question9" value="a" id="question9" required>
+						<label for= "A9">A. 12</label>
+						<br>
+						<input type="radio" name="question9"  value="b" id="question9" required> 
+						<label for= "B9">B. 40</label> 
+						<br>
+						<input type="radio" name="question9"  value="c" id="question9" required> 
+						<label for= "C9">C. 90</label> 
+						<br>
+						<input type="radio" name="question9"  value="d" id="question9" required> 
+						<label for= "D9">D. 160</label> 
+						<br>
+						<p id="result9"></p>
+              
+				<!--Number 10-->
+					<p for="question10"> 10. On his first birthday, Rico placed one P5 coin in a jar. On his second birth- day, he placed two P5 coins in the same jar. Every birthday he had thereafter, he put in as many P5 coins as his age in years. If he now has a total of P140 in the jar, how old is he?<br></p>
+						<input type="radio" name="question10" value="a" id="question10" required>
+						<label for= "A10">A. 7</label>
+						<br>
+						<input type="radio" name="question10"  value="b" id="question10" required> 
+						<label for= "B10">B. 9</label> 
+						<br>
+						<input type="radio" name="question10"  value="c" id="question10" required> 
+						<label for= "C10">C. 14</label> 
+						<br>
+						<input type="radio" name="question10"  value="d" id="question10" required> 
+						<label for= "D10">D. 28</label> 
+						<br>
+						<p id="result10"> </p>
+               
+			   <!--Number 11-->
+					<p for="question11"> 11. What is the next term in the sequence: 2, 5, 11, 23, …?<br></p>
+						<input type="radio" name="question11" value="a" id="question11" required>
+						<label for= "A11">A. 24</label>
+						<br>
+						<input type="radio" name="question11"  value="b" id="question11" required> 
+						<label for= "B11">B. 34</label> 
+						<br>
+						<input type="radio" name="question11"  value="c" id="question11" required> 
+						<label for= "C11">C. 41</label> 
+						<br>
+						<input type="radio" name="question11"  value="d" id="question11" required> 
+						<label for= "D11">D. 47</label> 
+						<br>
+						<p id="result11"></p>
+              
+				<!--Number 12-->
+					<p for="question12">12. The faces of a big cube were painted. Then it was divided into 27 smaller cubes of the same size. How many small cubes have only one face painted?<br>	</p>
+						<input type="radio" name="question12" value="a" id="question12" required>
+						<label for= "A12">A. 6</label>
+						<br>
+						<input type="radio" name="question12"  value="b" id="question12" required> 
+						<label for= "B12">B. 12</label> 
+						<br>
+						<input type="radio" name="question12"  value="c" id="question12" required> 
+						<label for= "C12">C. 18</label> 
+						<br>
+						<input type="radio" name="question12"  value="d" id="question12" required> 
+						<label for= "D12">D. 24</label> 
+						<br> 
+						<p id="result12"></p>
+            
+				<!--Number 13-->
+					<p for="question13">13. An ant walks around the edges of different shapes. In which shape will the ant walk the SHORTEST distance?<br>	</p>
+						<input type="radio" name="question13" value="a" id="question13" required>
+						<label for= "A13">A. A triangle with sides 9 cm, 9 cm, and 8 cm </label>
+						<br>
+						<input type="radio" name="question13"  value="b" id="question13" required> 
+						<label for= "B13">B. A square with sides 4cm</label> 
+						<br>
+						<input type="radio" name="question13"  value="c" id="question13" required> 
+						<label for= "C13">C. A trapezoid with legs 2 cm and 2 cm, and bases 3 cm and 5 cm</label> 
+						<br>
+						<input type="radio" name="question13"  value="d" id="question13" required> 
+						<label for= "D13">D. A regular pentagon with sides 6 cm</label> 
+						<br>
+						<p id="result13"></p>
+                
+				<!--Number 14-->
+					<p for="question14">14. In 8 years, Claire will be three times her current age. In how many years will she be 20 years old?<br></p>
+						<input type="radio" name="question14" value="a" id="question14" required>
+						<label for= "A14">A. 12 </label>
+						<br>
+						<input type="radio" name="question14"  value="b" id="question14" required> 
+						<label for= "B14">B. 14 </label> 
+						<br>
+						<input type="radio" name="question14"  value="c" id="question14" required> 
+						<label for= "C14">C. 16</label> 
+						<br>
+						<input type="radio" name="question14"  value="d" id="question14"required> 
+						<label for= "D14">D. 18</label> 
+						<br>
+						<p id="result14"></p>
+                <!--Number 15-->
+              	<p for="question15">15. What is the ones digit of 2^2024<br></p>
+					<input type="radio" name="question15" value="a" id="question15" required>
+					<label for= "A15">A. 2</label>
+					<br>
+					<input type="radio" name="question15"  value="b" id="question15" required> 
+					<label for= "B15">B. 4 </label> 
+					<br>
+					<input type="radio" name="question15"  value="c" id="question15" required> 
+					<label for= "C15">C. 6 </label> 
+					<br>
+					<input type="radio" name="question15"  value="d" id="question15" required> 
+					<label for= "D15">D. 8</label> 
+					<br>  
+					<p id="result15"></p>
+                
+            <!-- Fill in the blanks -->
+                <h2> FILL IN THE BLANKS: </h2>
+                <h3> TYPE IN YOUR ANSWER ON THE SPACE PROVIDED </h3>
+           
+		   <!-- QUESTION 16 -->
+				<input type= "text" id="question16" required> 
+                <label for="fill16">
+					1. What is the least common multiple of 12, 24, 30, and 60?
+                </label>
+				<p id="result16"></p>
+                <br>
+           
+		   <!-- QUESTION 17 -->
+				<input type= "text" id="question17" required> 
+				<label for="fill17">
+					What is the product of 0.2 × 0.2 × 0.2?											
+				</label>								
+				<p id="result17"></p>
+				<br>
+            
+			<!-- QUESTION 18 -->
+                <input type= "text" id="question18" required> 
+                <label for="fill18">
+					What is the value 1000% of 2?                	
+				</label>
+				<p id="result18"></p>
+				<br>
+          
+			<!-- QUESTION 19 -->
+                <input type= "text" id="question19" required> 
+                <label for="fill9">
+					4. How many of the integers from 1 to 101 inclusive are divisible by either 5 or 3??
+                </label>
+				<p id="result19"></p>
+				<br>
+              
+			<!-- QUESTION 20 -->
+				<input type= "text" id="question20" required>
+                <label for="fill20">
+					5. The three-digit number 2A4 is added to 329 and gives 5B3. If 5B3 is divisible by 3, what is the largest possible value of A?
+                </label>
+				<p id="result20"></p>
+				<br>
+              
+			<!-- sumbit and reset buttons --> 
+            <input type="submit" onclick="submitAnswers()">
+            <input type="reset" onclick="resetForm()">
+            </form>
+            </div>
+            <div id="output" hidden> </div>
+            <script>
+            var output = document.getElementById("output");
+            function submitAnswers(){
+          	event.preventDefault();
+			var form = document.querySelector("form");
+					if(form.reportValidity()){
+						var score = 0;
+					/* question 1*/	
+						var q1placeholder = document.querySelector('input[name="question1"]:checked');
+						var q1 = q1placeholder.value;
+						
+					/* question 2 */
+						var q2placeholder = document.querySelector('input[name="question2"]:checked');
+						var q2 = q2placeholder.value;
+						
+					/* question 3*/
+						var q3placeholder = document.querySelector('input[name="question3"]:checked');
+						var q3 = q3placeholder.value;
+
+					/* question 4*/	
+						var q4placeholder = document.querySelector('input[name="question4"]:checked');
+						var q4 = q4placeholder.value;
+
+					/* question 5*/	
+						var q5placeholder = document.querySelector('input[name="question5"]:checked');
+						var q5 = q5placeholder.value;
+			
+					/* question 6*/	
+						var q6placeholder = document.querySelector('input[name="question6"]:checked');
+						var q6 = q6placeholder.value;
+				
+					/* question7*/	
+						var q7placeholder = document.querySelector('input[name="question7"]:checked');
+						var q7 = q7placeholder.value;
+
+					/* question 8*/	
+						var q8placeholder = document.querySelector('input[name="question8"]:checked');
+						var q8 = q8placeholder.value;	
+
+					/* question 9*/	
+					var q9placeholder = document.querySelector('input[name="question9"]:checked');
+					var q9 = q9placeholder.value;	
+
+					/* question 10*/	
+					var q10placeholder = document.querySelector('input[name="question10"]:checked');
+					var q10 = q10placeholder.value;	
+
+					/* question 11*/	
+					var q11placeholder = document.querySelector('input[name="question11"]:checked');
+					var q11 = q11placeholder.value;					
+
+					/* question 12*/	
+					var q12placeholder = document.querySelector('input[name="question12"]:checked');
+					var q12 = q12placeholder.value;
+
+					/* question 13*/	
+					var q13placeholder = document.querySelector('input[name="question13"]:checked');
+					var q13 = q13placeholder.value;
+					
+					/* question 14*/	
+					var q14placeholder = document.querySelector('input[name="question14"]:checked');
+					var q14 = q14placeholder.value;
+
+					/* question 15*/	
+					var q15placeholder = document.querySelector('input[name="question15"]:checked');
+					var q15 = q15placeholder.value;
+
+					/* question 16*/
+					var q16placeholder = document.getElementById("question16");
+					var q16 = q16placeholder.value.trim();		
+					
+					/* question 17*/
+					var q17placeholder = document.getElementById("question17");
+					var q17 = q17placeholder.value.trim();							
+					
+					/* question 18*/
+					var q18placeholder = document.getElementById("question18");
+					var q18 = q18placeholder.value.trim();		
+
+					/* question 19*/
+					var q19placeholder = document.getElementById("question19");
+					var q19 = q19placeholder.value.trim();
+
+					/* question 20*/
+					var q20placeholder = document.getElementById("question20");
+					var q20 = q20placeholder.value.trim();		
+					
+					if(q1 == 'a'){
+						score++;
+						document.querySelector('input[name="question1"][value="a"]').style.color = "green";
+          				document.getElementById("result1").style.color= "green";
+            			document.getElementById("result1").innerHTML = "YOUR ANSWER IS CORRECT";
+ 								}
+					else{
+						document.getElementById("result1").style.color= "red";
+						document.getElementById("result1").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+         			 
+					if(q2 == 'd'){
+						score++;
+						document.getElementById("result2").style.color= "green";
+						document.getElementById("result2").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+					else{
+					  document.getElementById("result2").style.color= "red";
+							document.getElementById("result2").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+         			 
+					if(q3 == 'd'){
+						score++;
+						document.getElementById("result3").style.color= "green";
+						document.getElementById("result3").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+					else{
+						document.getElementById("result3").style.color= "red";
+						document.getElementById("result3").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+	     			 
+					if(q4 == 'c'){
+                	score++;
+          			document.getElementById("result4").style.color= "green";
+            		document.getElementById("result4").innerHTML = "YOUR ANSWER IS CORRECT";
+ 						}
+				    else{
+					document.getElementById("result4").style.color= "red";
+					document.getElementById("result4").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+         			 
+					if(q5 == 'd'){
+						score++;
+						document.getElementById("result5").style.color= "green";
+						document.getElementById("result5").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+					else{
+						document.getElementById("result5").style.color= "red";
+						document.getElementById("result5").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+				  	 
+					if(q6 == 'c'){
+						score++;
+						document.getElementById("result6").style.color= "green";
+						document.getElementById("result6").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+					else{
+						document.getElementById("result6").style.color= "red";
+						document.getElementById("result6").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+						 
+					if(q7 == 'd'){
+						score++;
+						document.getElementById("result7").style.color= "green";
+						document.getElementById("result7").innerHTML = "YOUR ANSWER IS CORRECT";
+					}
+					else{
+						document.getElementById("result7").style.color= "red";
+						document.getElementById("result7").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};				
+						 
+					if(q8 == 'c'){
+						score++;
+							document.getElementById("result8").style.color= "green";
+							document.getElementById("result8").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+					else{
+						document.getElementById("result8").style.color= "red";
+						document.getElementById("result8").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+		
+
+						 
+					if(q9 == 'c'){
+						score++;
+						document.getElementById("result9").style.color= "green";
+						document.getElementById("result9").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+							
+					else{
+					  document.getElementById("result9").style.color= "red";
+							document.getElementById("result9").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+						 
+					if(q10 == 'a'){
+						score++;
+						document.getElementById("result10").style.color= "green";
+						document.getElementById("result10").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+									
+					else{
+						document.getElementById("result10").style.color= "red";
+						document.getElementById("result10").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+				
+					if(q11 == 'd'){
+						score++;
+						document.getElementById("result11").style.color= "green";
+						document.getElementById("result11").innerHTML = "YOUR ANSWER IS CORRECT";
+						}
+									
+					else{
+						document.getElementById("result11").style.color= "red";
+						document.getElementById("result11").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+									 
+					if(q12 == 'a'){
+						score++;
+						document.getElementById("result12").style.color= "green";
+						document.getElementById("result12").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+									
+					else{
+						document.getElementById("result12").style.color= "red";
+						document.getElementById("result12").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};		
+						 
+					if(q13 == 'c'){
+						score++;
+						document.getElementById("result13").style.color= "green";
+						document.getElementById("result13").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+					
+					else{
+					  document.getElementById("result13").style.color= "red";
+							document.getElementById("result13").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+							 
+					if(q14 == 'b'){
+						score++;
+						document.getElementById("result14").style.color= "green";
+						document.getElementById("result14").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+					else{
+						document.getElementById("result14").style.color= "red";
+						document.getElementById("result14").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+						 
+					if(q15 == 'c'){
+						score++;
+						document.getElementById("result15").style.color= "green";
+						document.getElementById("result15").innerHTML = "YOUR ANSWER IS CORRECT";
+									}
+					else{
+						document.getElementById("result15").style.color= "red";
+						document.getElementById("result15").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+              	
+					if(q16 == '120'){
+						score++;
+       					document.getElementById("result16").style.color= "green";
+            			document.getElementById("result16").innerHTML = "YOUR ANSWER IS CORRECT";
+ 								}
+					else{
+						document.getElementById("result16").style.color= "red";
+						document.getElementById("result16").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};	 
+              	
+					if(q17 == '0.008'){
+						score++;
+       					document.getElementById("result17").style.color= "green";
+            			document.getElementById("result17").innerHTML = "YOUR ANSWER IS CORRECT";
+ 								}
+					else{
+						document.getElementById("result17").style.color= "red";
+						document.getElementById("result17").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};	 
+					
+					if(q18 == '20'){
+						score++;
+       					document.getElementById("result18").style.color= "green";
+            			document.getElementById("result18").innerHTML = "YOUR ANSWER IS CORRECT";
+ 								}
+					else{
+						document.getElementById("result18").style.color= "red";
+						document.getElementById("result18").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+ 
+					if(q19 == '47'){
+						score++;
+       					document.getElementById("result19").style.color= "green";
+            			document.getElementById("result19").innerHTML = "YOUR ANSWER IS CORRECT";
+							}
+					else{
+						document.getElementById("result19").style.color= "red";
+            			document.getElementById("result19").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+
+					if (q20 == '4'){
+						score++;
+       					document.getElementById("result20").style.color= "green";
+            			document.getElementById("result20").innerHTML = "YOUR ANSWER IS CORRECT";
+ 								}
+					else{
+						document.getElementById("result20").style.color= "red";
+            			document.getElementById("result20").innerHTML = "YOUR ANSWER IS INCORRECT";
+					};
+					output.innerHTML = '<h2 id="results">RESULTS:</h2>';
+					output.innerHTML += '<p id="CA">CORRECT ANSWERS: ' + score + '</p>';
+					output.innerHTML += '<p id="ICA"> INCORRECT ANSWERS: '  + (20 - score) + '</p>';
+					document.getElementById("output").style.display = "block";
+					
+					/*add the output */
+					};
+					};
+					function resetForm(){
+						document.getElementById("output").style.display = "none";
+						document.getElementById("result1").innerHTML= " ";
+						document.getElementById("result2").innerHTML= " ";
+						document.getElementById("result3").innerHTML= " ";
+						document.getElementById("result4").innerHTML= " ";
+						document.getElementById("result5").innerHTML= " ";
+						document.getElementById("result6").innerHTML= " ";
+						document.getElementById("result7").innerHTML= " ";
+						document.getElementById("result8").innerHTML= " ";
+						document.getElementById("result9").innerHTML= " ";
+						document.getElementById("result10").innerHTML= " ";
+						document.getElementById("result11").innerHTML= " ";
+						document.getElementById("result12").innerHTML= " ";
+						document.getElementById("result13").innerHTML= " ";
+						document.getElementById("result14").innerHTML= " ";
+						document.getElementById("result15").innerHTML= " ";
+						document.getElementById("result16").innerHTML= " ";
+						document.getElementById("result17").innerHTML= " ";
+						document.getElementById("result18").innerHTML= " ";
+						document.getElementById("result19").innerHTML= " ";
+						document.getElementById("result20").innerHTML= " ";
+						
+					};
+            </script>
+        </body>
+    </html>
